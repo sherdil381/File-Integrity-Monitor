@@ -81,5 +81,5 @@ This project is intended for educational and defensive purposes only. Running it
 Author
 
 --- Made with ❤️ for learning cybersecurity and file monitoring.
-GitHub: @<sherdil381>
+GitHub: @sherdil381
  
