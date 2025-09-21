@@ -28,39 +28,44 @@ This repository contains a lightweight cybersecurity project that implements a *
 ```bash
 git clone https://github.com/sherdil381/file-integrity-monitor.git
 cd file-integrity-monitor
+```
 
 ## Install dependencies in your virtual environment
 
+``` bash
 python3 -m venv venv
 source venv/bin/activate        # Linux / macOS
 venv\Scripts\activate           # Windows
 pip install watchdog
-
+```
 ## Configure folders, hash algorithm, and log file in config.json:
+```
 {
     "folders_to_monitor": ["monitor_folder"],
     "hash_algorithm": "sha256",
     "log_file": "logs.txt"
 }
-  
+  ```
 ## Create the folder to monitor if it does not exist:
 
+```
 mkdir monitor_folder
-
+```
 
 ## Run the monitor:
-
+```
 python3 monitor.py
-
+```
 
 ## Simulate file changes:
-
+```
 echo "hello" > monitor_folder/test1.txt      # NEW file
 echo "update" >> monitor_folder/test1.txt    # MODIFIED file
 rm monitor_folder/test1.txt                  # DELETED file
+```
 
 ## Planned improvements
-
+```
 - Add alerting mechanisms (Slack, Discord, email).
 
 - Add report exports in PDF/HTML format.
@@ -68,7 +73,7 @@ rm monitor_folder/test1.txt                  # DELETED file
 - Implement a baseline mode (snapshot + comparison).
 
 Add multi-hash support (MD5, SHA1, SHA256 simultaneously).
-
+```
 ## Safety & ethics
 
 This project is intended for educational and defensive purposes only. Running it on your own system is safe, but always be cautious when deploying monitoring tools on production environments. Do not use this code for malicious purposes.
