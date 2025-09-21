@@ -1,0 +1,4 @@
+[2025-09-21 04:08:24] [NEW] monitor_folder/test1.txt | Hash (sha256): 571211ab20530b568218efcd5b11164a3a2e14a1a8ad4807ad44b4eeb0459802
+[2025-09-21 04:08:24] [MODIFIED] monitor_folder/test1.txt | Hash (sha256): 571211ab20530b568218efcd5b11164a3a2e14a1a8ad4807ad44b4eeb0459802
+[2025-09-21 04:08:24] [MODIFIED] monitor_folder/test1.txt | Hash (sha256): 571211ab20530b568218efcd5b11164a3a2e14a1a8ad4807ad44b4eeb0459802
+[2025-09-21 04:08:24] [DELETED] monitor_folder/test1.txt

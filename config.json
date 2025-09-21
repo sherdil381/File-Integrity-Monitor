@@ -1,0 +1,5 @@
+{
+    "folders_to_monitor": ["monitor_folder"],
+    "hash_algorithm": "sha256",
+    "log_file": "logs.txt"
+}
